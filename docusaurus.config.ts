@@ -96,11 +96,6 @@ const config: Config = {
           label: '모집',
           position: 'left',
         },
-        {
-          to: '/blog',
-          label: '블로그',
-          position: 'left',
-        },
         // { // 주요 행사
         //   to: '/recruit',
         //   label: '신입회원 모집중!',
@@ -135,10 +130,6 @@ const config: Config = {
         {
           title: '커뮤니티',
           items: [
-            {
-              label: 'Blog',
-              to: '/blog',
-            },
             {
               label: 'GitHub',
               href: 'https://github.com/inje-megabrain',
