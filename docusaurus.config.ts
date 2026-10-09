@@ -45,14 +45,7 @@ const config: Config = {
           sidebarPath: './sidebars.ts',
           editUrl: 'https://github.com/inje-megabrain/megabrain.kr/tree/main',
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          blogSidebarTitle: 'All posts',
-          blogSidebarCount: 'ALL',
-          editUrl: 'https://github.com/inje-megabrain/megabrain.kr/tree/main',
-        },
+        blog: false,
         theme: {customCss: './src/css/custom.css',},
       } satisfies Preset.Options,
     ],
